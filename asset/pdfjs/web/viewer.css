@@ -7194,7 +7194,7 @@ body.wait::before{
 #mainContainer{
   position:absolute;
   inset:0;
-  min-width:350px;
+  min-width:320px;
   margin:0;
   display:flex;
   flex-direction:column;
@@ -8428,3 +8428,31 @@ dialog :link{
     display:none;
   }
 }
+
+@media (max-width: 370px) {
+  #editorModeButtons {
+    display: none;
+  }
+}
+
+@media (max-width: 370px) {
+  #editorModeButtons {
+    display: none;
+  }
+}
+
+@media (max-width: 340px) {
+  #toolbarViewer {
+    width: 0 !important;
+  }
+}
+
+/*
+#toolbarContainer {
+  display: none !important;
+}
+
+#viewerContainer {
+  top: 0 !important;
+}
+*/
